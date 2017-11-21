@@ -2,11 +2,13 @@ Start
 	
 		You need Vue.js version 2.5+.
 
-1 Install via npm
+Step 1: Install via npm
 		
-		npm install buefy
+		Step 1 (1): npm install
+		
+		Step 1 (2): npm install buefy
 
-2 Import and use Buefy in resources/assets/js/app.js
+Step 2: Import and use Buefy in resources/assets/js/app.js
 
 		import Vue from 'vue';
 		import Buefy from 'buefy';
@@ -20,7 +22,7 @@ Start
 		Vue.component(Buefy.Table.name, Buefy.Table);
 		Vue.component(Buefy.Switch.name, Buefy.Switch);
 
-3 Include Material Design Icons
+Step 3: Include Material Design Icons
 
 		<link rel="stylesheet" href="//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
 		
