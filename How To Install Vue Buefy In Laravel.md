@@ -4,11 +4,13 @@ Start
 
 Step 1: Install via npm
 		
-		Step 1 (1): npm install
+		npm install
 		
-		Step 1 (2): npm install buefy
+Step 2: Install buefy
+		
+		npm install buefy
 
-Step 2: Import and use Buefy in resources/assets/js/app.js
+Step 3: Import and use Buefy in resources/assets/js/app.js
 
 		import Vue from 'vue';
 		import Buefy from 'buefy';
@@ -22,7 +24,7 @@ Step 2: Import and use Buefy in resources/assets/js/app.js
 		Vue.component(Buefy.Table.name, Buefy.Table);
 		Vue.component(Buefy.Switch.name, Buefy.Switch);
 
-Step 3: Include Material Design Icons
+Step 4: Include Material Design Icons
 
 		<link rel="stylesheet" href="//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
 		
