@@ -26,6 +26,10 @@ Step 3: Import and use Buefy in resources/assets/js/app.js
 		Vue.component(Buefy.Table.name, Buefy.Table);
 		Vue.component(Buefy.Switch.name, Buefy.Switch);
 
+Step 3: Import and use Buefy in resources/assets/sass/app.scss
+
+		@import "node_modules/buefy/src/scss/buefy";
+		
 Step 4: Include Material Design Icons
 
 		<link rel="stylesheet" href="//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
